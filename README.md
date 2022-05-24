@@ -1,7 +1,6 @@
 Nothing WordPress Theme
 ====================
 
-
 > Easiest way to hide content without a plugin - Mitchell D. Miller
 
 ## About
@@ -15,12 +14,9 @@ Displays "Under Construction" centered on responsive page for every page request
 - (Optional) Delete or rename sitemap.
 
 ### Credit
-* CSS inspired by [Bootstrap](http://getbootstrap.com)
-
-### Changelog
-Nothing
+* CSS inspired by [Solved by Flexbox](https://philipwalton.github.io/solved-by-flexbox/demos/vertical-centering/)
 
 ### License
-Nothing WordPress Theme, Copyright 2019 Mitchell D. Miller
+Nothing WordPress Theme, Copyright 2019-2022 Mitchell D. Miller
 Distributed under GNU GPL version 3.
 
