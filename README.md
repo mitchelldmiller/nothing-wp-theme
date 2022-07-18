@@ -11,7 +11,7 @@ Displays "Under Construction" on responsive page for non-admin page requests.
 ### Usage
 - Use [WP-CLI](https://wp-cli.org/) to install / activate theme, hide content quickly:
 
- ``wp install theme https://github.com/mitchelldmiller/nothing/archive/refs/tags/v2.0.0.zip --activate``
+ ``wp theme install https://github.com/mitchelldmiller/nothing/archive/refs/tags/v2.1.0.zip --activate``
 - (Optional) Install theme from release.
 - (Optional) Edit nothing.html to change content.
 - (Optional) Delete or rename sitemap.
