@@ -5,8 +5,7 @@
  * One function to display nothing.
  *
  * @package Nothing
- * @version 1.0
- * @since 1.0
+ * @version 2.1.3
  */
 
 function show_nothing() {
@@ -15,7 +14,7 @@ function show_nothing() {
 	} // Ignore admin requests
 
 	$filename = get_template_directory() . '/nothing.html';
-	$html     = file_exists( $filename ) ? file_get_contents( $filename ) : '';
+	$html     = file_exists( $filename ) ? file_get_contents( $filename ) : '<h1>Under Construction</h1>';
 	echo $html;
 	exit;
 }
