@@ -17,7 +17,7 @@ Displays dark page if "dark mode" is active.
 ### Usage
 - Use [WP-CLI](https://wp-cli.org/) to install / activate theme, hide content quickly:
 
- ``wp theme install https://github.com/mitchelldmiller/nothing/archive/refs/tags/v2.1.3.zip --activate``
+ ``wp theme install https://github.com/mitchelldmiller/nothing-wp-theme/archive/master.zip --activate``
 - (Optional) Install theme from release.
 - (Optional) Edit nothing.html. Change body class to change colors.
 - (Optional) Delete or rename sitemap.
