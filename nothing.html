@@ -6,27 +6,40 @@
 <title>Under Construction</title>
 <style>
 body {
-   height: 100%;
-   width: 100%;
-   background-color: #f8f9fa;
+	height: 100%;
+	width: 100%;
+}
+.light {
+	background-color: #f8f9fa;
+	color: #212529;
+}
+.dark {
+	background-color: #333333;
+	color: #337ab7;
 }
 .container {
    align-items: center;
    display: flex;
-   font-size: 16px;
    justify-content: center;
    min-height: 24em;
 }
 .inner-container {
-   color: #212529;
    flex: 1;
    font: normal 32px helvetica,sans-serif;
    text-align: center;
 }
 </style>
+</head>
 <body>
-   <div class="container">
-     <div class="inner-container">Under Construction</div>
-   </div>
+<div class="container">
+<div class="inner-container">Under Construction</div>
+</div>
+<script>
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+document.body.classList.add('dark');
+} else {
+document.body.classList.add('light');
+}
+</script>   
 </body>
 </html>

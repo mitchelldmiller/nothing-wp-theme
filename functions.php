@@ -5,7 +5,6 @@
  * One function to display nothing.
  *
  * @package Nothing
- * @version 2.1.3
  */
 
 function show_nothing() {
